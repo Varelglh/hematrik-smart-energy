@@ -1,0 +1,23 @@
+{
+  "name": "hematik-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "start:all": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\run-all.ps1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.22.3",
+    "pg": "^8.20.0"
+  }
+}
